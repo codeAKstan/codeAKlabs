@@ -73,8 +73,8 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right Section - Code Animation */}
-          <div className="hidden lg:block h-96 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+ {/* Right Section - Code Animation */}
+          <div className="h-64 md:h-80 lg:h-96 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <TypingCode />
           </div>
         </div>

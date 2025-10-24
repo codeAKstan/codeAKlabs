@@ -9,7 +9,7 @@ interface TypingCodeProps {
 
 export function TypingCode({
   lines = [
-    "const project = 'CodeAK Labs';",
+    "const project = 'codeAK Labs';",
     "const mission = 'Building business-driven apps';",
     "console.log('Transforming ideas into reality...');",
     "// Delivering measurable results",
