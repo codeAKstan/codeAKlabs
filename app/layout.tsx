@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "codeAKLabs - Digital Solutions & Web Development",
   description:
     "Transform your business with cutting-edge digital solutions. Expert web development, design, and strategy.",
-  generator: "v0.app",
+  generator: "codekastan",
   openGraph: {
     title: "codeAKLabs - Digital Solutions & Web Development",
     description: "Transform your business with cutting-edge digital solutions.",
