@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecknTools Logo Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2e8b57;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .logo-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .logo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .logo-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .logo-description {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .logo-container {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .download-btn {
+            width: 100%;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #2e8b57 0%, #246b43 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .download-btn:hover {
+            background: linear-gradient(135deg, #246b43 0%, #1a5c35 100%);
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(46, 139, 87, 0.3);
+        }
+        
+        .download-btn:active {
+            transform: scale(0.98);
+        }
+        
+        @media (max-width: 768px) {
+            .logo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DecknTools Logo Collection</h1>
+        <p class="subtitle">Choose your favorite design and download in SVG format</p>
+        
+        <div class="logo-grid">
+            <!-- Logo 1: Perspective Deck with Hammer -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 1: Perspective Deck</h3>
+                <p class="logo-description">Features wooden deck planks in perspective with an integrated hammer tool. Modern and professional with wood grain texture.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo1">
+                        <defs>
+                            <pattern id="woodGrain1" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                                <rect width="40" height="40" fill="#8B5A2B" opacity="0.1"/>
+                                <path d="M0,20 Q10,18 20,20 T40,20" stroke="#8B5A2B" stroke-width="0.5" fill="none" opacity="0.3"/>
+                            </pattern>
+                            <linearGradient id="deckGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2e8b57;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#246b43;stop-opacity:1" />
+                            </linearGradient>
+                            <linearGradient id="toolGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#8B5A2B;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#a0683a;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="150" cy="150" r="130" fill="#2e8b57" opacity="0.05"/>
+                        <rect x="40" y="80" width="180" height="18" fill="url(#deckGradient1)" rx="2"/>
+                        <rect x="40" y="80" width="180" height="18" fill="url(#woodGrain1)" rx="2"/>
+                        <rect x="40" y="105" width="180" height="18" fill="url(#deckGradient1)" rx="2"/>
+                        <rect x="40" y="105" width="180" height="18" fill="url(#woodGrain1)" rx="2"/>
+                        <rect x="40" y="130" width="180" height="18" fill="url(#deckGradient1)" rx="2"/>
+                        <rect x="40" y="130" width="180" height="18" fill="url(#woodGrain1)" rx="2"/>
+                        <rect x="50" y="155" width="160" height="16" fill="url(#deckGradient1)" rx="2" opacity="0.9"/>
+                        <rect x="60" y="176" width="140" height="14" fill="url(#deckGradient1)" rx="2" opacity="0.8"/>
+                        <g transform="translate(165, 95)">
+                            <rect x="0" y="0" width="8" height="80" fill="url(#toolGradient1)" rx="4" transform="rotate(45 4 40)"/>
+                            <rect x="-8" y="-20" width="24" height="16" fill="url(#toolGradient1)" rx="2" transform="rotate(45 4 -12)"/>
+                        </g>
+                        <text x="320" y="140" font-family="'Arial Black', sans-serif" font-size="68" font-weight="900" fill="#2e8b57" letter-spacing="-2">
+                            Deck<tspan fill="#8B5A2B">n</tspan>Tools
+                        </text>
+                        <text x="322" y="175" font-family="Arial, sans-serif" font-size="16" fill="#666" letter-spacing="2">QUALITY DECKING SOLUTIONS</text>
+                        <line x1="320" y1="185" x2="680" y2="185" stroke="#2e8b57" stroke-width="2" opacity="0.3"/>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo1', 'DecknTools-Design1.svg')">Download Logo 1</button>
+            </div>
+
+            <!-- Logo 2: Circular Badge Style -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 2: Circular Badge</h3>
+                <p class="logo-description">Classic badge design with wood planks forming a circle. Tools crossed in the center. Perfect for stamps and emblems.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo2">
+                        <defs>
+                            <linearGradient id="greenGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2e8b57"/>
+                                <stop offset="100%" style="stop-color:#246b43"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="150" cy="150" r="110" fill="none" stroke="#2e8b57" stroke-width="8"/>
+                        <circle cx="150" cy="150" r="95" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+                        <rect x="70" y="145" width="160" height="10" fill="#2e8b57" rx="2"/>
+                        <rect x="145" y="70" width="10" height="160" fill="#8B5A2B" rx="2"/>
+                        <g transform="translate(120, 120) rotate(-45)">
+                            <rect x="-3" y="-30" width="6" height="60" fill="#8B5A2B" rx="3"/>
+                            <rect x="-12" y="-35" width="24" height="12" fill="#8B5A2B" rx="2"/>
+                        </g>
+                        <g transform="translate(180, 120) rotate(45)">
+                            <rect x="-3" y="-25" width="6" height="50" fill="#2e8b57" rx="3"/>
+                            <circle cx="0" cy="-28" r="6" fill="#2e8b57"/>
+                        </g>
+                        <text x="320" y="130" font-family="'Arial Black', sans-serif" font-size="72" font-weight="900" fill="#2e8b57">Deck<tspan fill="#8B5A2B">n</tspan>Tools</text>
+                        <text x="322" y="165" font-family="Arial, sans-serif" font-size="18" fill="#8B5A2B" letter-spacing="3">EST. 2025</text>
+                        <text x="322" y="190" font-family="Arial, sans-serif" font-size="16" fill="#666" letter-spacing="1">Premium Decking Materials</text>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo2', 'DecknTools-Design2.svg')">Download Logo 2</button>
+            </div>
+
+            <!-- Logo 3: Minimalist Modern -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 3: Minimalist Modern</h3>
+                <p class="logo-description">Clean, contemporary design with geometric deck pattern and simple tool icon. Perfect for digital applications.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo3">
+                        <defs>
+                            <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2e8b57"/>
+                                <stop offset="100%" style="stop-color:#8B5A2B"/>
+                            </linearGradient>
+                        </defs>
+                        <rect x="40" y="80" width="220" height="40" fill="#2e8b57" rx="4"/>
+                        <rect x="50" y="90" width="200" height="5" fill="white" opacity="0.3"/>
+                        <rect x="50" y="100" width="200" height="5" fill="white" opacity="0.3"/>
+                        <rect x="50" y="110" width="200" height="5" fill="white" opacity="0.3"/>
+                        <circle cx="150" cy="170" r="45" fill="none" stroke="#8B5A2B" stroke-width="6"/>
+                        <rect x="145" y="135" width="10" height="70" fill="#8B5A2B" rx="2"/>
+                        <rect x="115" y="165" width="70" height="10" fill="#8B5A2B" rx="2"/>
+                        <text x="320" y="140" font-family="'Arial', sans-serif" font-size="76" font-weight="300" fill="#2e8b57" letter-spacing="-1">
+                            DECK<tspan font-weight="700" fill="#8B5A2B">N</tspan>TOOLS
+                        </text>
+                        <rect x="320" y="155" width="380" height="3" fill="url(#grad3)"/>
+                        <text x="322" y="185" font-family="Arial, sans-serif" font-size="15" fill="#666" letter-spacing="4">BUILD WITH CONFIDENCE</text>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo3', 'DecknTools-Design3.svg')">Download Logo 3</button>
+            </div>
+
+            <!-- Logo 4: Woodworker's Mark -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 4: Woodworker's Mark</h3>
+                <p class="logo-description">Traditional craftsman style with hexagonal framing and crossed tools. Emphasizes heritage and quality.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo4">
+                        <defs>
+                            <linearGradient id="woodGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#8B5A2B"/>
+                                <stop offset="50%" style="stop-color:#a0683a"/>
+                                <stop offset="100%" style="stop-color:#8B5A2B"/>
+                            </linearGradient>
+                        </defs>
+                        <polygon points="150,60 210,95 210,165 150,200 90,165 90,95" fill="none" stroke="#2e8b57" stroke-width="7"/>
+                        <polygon points="150,75 200,105 200,155 150,185 100,155 100,105" fill="#8B5A2B" opacity="0.1"/>
+                        <g transform="translate(130, 110) rotate(-30)">
+                            <rect x="-2" y="-25" width="4" height="50" fill="#8B5A2B" rx="2"/>
+                            <rect x="-8" y="-28" width="16" height="8" fill="#8B5A2B"/>
+                        </g>
+                        <g transform="translate(170, 110) rotate(30)">
+                            <rect x="-2" y="-25" width="4" height="50" fill="#2e8b57" rx="2"/>
+                            <circle cx="0" cy="-27" r="4" fill="#2e8b57"/>
+                            <circle cx="0" cy="27" r="4" fill="#2e8b57"/>
+                        </g>
+                        <rect x="120" y="155" width="60" height="8" fill="url(#woodGrad4)" rx="2"/>
+                        <rect x="125" y="168" width="50" height="6" fill="url(#woodGrad4)" rx="2" opacity="0.7"/>
+                        <text x="280" y="145" font-family="'Georgia', serif" font-size="70" font-weight="700" fill="#2e8b57">DecknTools</text>
+                        <text x="282" y="180" font-family="Georgia, serif" font-size="16" fill="#8B5A2B" letter-spacing="2" font-style="italic">Crafted for Excellence</text>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo4', 'DecknTools-Design4.svg')">Download Logo 4</button>
+            </div>
+
+            <!-- Logo 5: Abstract Deck Structure -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 5: Abstract Structure</h3>
+                <p class="logo-description">Modern abstract representation of deck construction with bold geometric shapes. Eye-catching and memorable.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo5">
+                        <defs>
+                            <linearGradient id="structGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2e8b57"/>
+                                <stop offset="100%" style="stop-color:#1a5c35"/>
+                            </linearGradient>
+                        </defs>
+                        <rect x="50" y="70" width="70" height="140" fill="#2e8b57" rx="4" transform="skewY(-10)"/>
+                        <rect x="130" y="80" width="70" height="130" fill="#8B5A2B" rx="4" transform="skewY(-10)"/>
+                        <rect x="210" y="90" width="70" height="120" fill="url(#structGrad5)" rx="4" transform="skewY(-10)"/>
+                        <rect x="80" y="180" width="180" height="12" fill="#2e8b57" opacity="0.3" rx="2"/>
+                        <rect x="90" y="200" width="160" height="10" fill="#8B5A2B" opacity="0.3" rx="2"/>
+                        <circle cx="100" cy="120" r="8" fill="white" opacity="0.5"/>
+                        <circle cx="160" cy="130" r="8" fill="white" opacity="0.5"/>
+                        <circle cx="220" cy="140" r="8" fill="white" opacity="0.5"/>
+                        <text x="340" y="130" font-family="'Arial Black', sans-serif" font-size="68" font-weight="900" fill="#2e8b57" letter-spacing="-3">
+                            DECK<tspan fill="#8B5A2B">N</tspan>
+                        </text>
+                        <text x="340" y="180" font-family="'Arial Black', sans-serif" font-size="68" font-weight="900" fill="#8B5A2B" letter-spacing="-3">TOOLS</text>
+                        <rect x="340" y="195" width="340" height="4" fill="#2e8b57"/>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo5', 'DecknTools-Design5.svg')">Download Logo 5</button>
+            </div>
+
+            <!-- Logo 6: Eco-Friendly Leaf Design -->
+            <div class="logo-card">
+                <h3 class="logo-title">Design 6: Eco-Friendly Focus</h3>
+                <p class="logo-description">Emphasizes sustainability with leaf motif integrated into deck design. Perfect for eco-conscious branding.</p>
+                <div class="logo-container">
+                    <svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" id="logo6">
+                        <defs>
+                            <linearGradient id="leafGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#2e8b57"/>
+                                <stop offset="100%" style="stop-color:#1a5c35"/>
+                            </linearGradient>
+                        </defs>
+                        <ellipse cx="150" cy="130" rx="90" ry="100" fill="url(#leafGrad6)" transform="rotate(-20 150 130)"/>
+                        <path d="M150,50 Q180,90 150,200 Q120,90 150,50" fill="#246b43"/>
+                        <path d="M150,80 Q130,110 145,150" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+                        <path d="M150,100 Q170,120 155,160" stroke="white" stroke-width="2" fill="none" opacity="0.3"/>
+                        <rect x="70" y="185" width="160" height="20" fill="#8B5A2B" rx="3"/>
+                        <rect x="75" y="190" width="150" height="3" fill="white" opacity="0.2"/>
+                        <rect x="75" y="197" width="150" height="3" fill="white" opacity="0.2"/>
+                        <text x="310" y="135" font-family="'Arial', sans-serif" font-size="72" font-weight="700" fill="#2e8b57">DecknTools</text>
+                        <text x="312" y="170" font-family="Arial, sans-serif" font-size="17" fill="#8B5A2B" letter-spacing="2">SUSTAINABLE BUILDING</text>
+                        <circle cx="680" cy="140" r="15" fill="#2e8b57" opacity="0.2"/>
+                        <path d="M680,130 Q685,135 680,145 Q675,135 680,130" fill="#2e8b57"/>
+                    </svg>
+                </div>
+                <button class="download-btn" onclick="downloadSVG('logo6', 'DecknTools-Design6.svg')">Download Logo 6</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function downloadSVG(svgId, filename) {
+            const svg = document.getElementById(svgId);
+            const svgData = new XMLSerializer().serializeToString(svg);
+            const svgBlob = new Blob([svgData], {type: 'image/svg+xml;charset=utf-8'});
+            const svgUrl = URL.createObjectURL(svgBlob);
+            const downloadLink = document.createElement('a');
+            downloadLink.href = svgUrl;
+            downloadLink.download = filename;
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+            URL.revokeObjectURL(svgUrl);
+        }
+    </script>
+</body>
+</html>
